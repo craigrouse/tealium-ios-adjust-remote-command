@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/AnyEncodable.swift</key>
 		<data>
-		B91nSWWxc3qaGrCAPJlwHFslnhQ=
+		7PXa3GU4zaKglEusRZRLVnYqOro=
 		</data>
 		<key>Headers/AtomicInteger.swift</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Headers/TealiumConstants.swift</key>
 		<data>
-		SaIEIbGOdvPEtMs0I1N8xuMttWs=
+		TUO7e/Jn3hXBgGhTiwGmS0a9Vks=
 		</data>
 		<key>Headers/TealiumCore-Swift.h</key>
 		<data>
-		QeURnuRX4Ox2XqJ1Bfp4T+z698g=
+		3xZzM0sx8uEkMm5BhbBUQakni0M=
 		</data>
 		<key>Headers/TealiumDiskStorage.swift</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Headers/TealiumTrace.swift</key>
 		<data>
-		zgQOEto2NgHaiWr/89zbFC4x9q8=
+		uNCl3MIHnO9zCnIDonkghMykvx4=
 		</data>
 		<key>Headers/TealiumURLSession.swift</key>
 		<data>
@@ -130,79 +130,103 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JR3T6vTTQprj5G5o/AnGM0B/+Zg=
+		4fIcg2IcA7xZD0jQyM/0dftULXw=
+		</data>
+		<key>Modules/TealiumCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		PxTGSbmRC3Zl3AsxPu9xVwDwyGY=
+		</data>
+		<key>Modules/TealiumCore.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		PxTGSbmRC3Zl3AsxPu9xVwDwyGY=
+		</data>
+		<key>Modules/TealiumCore.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		cc2M2upVoRdCI5boGh2Ri2vPsHQ=
+		</data>
+		<key>Modules/TealiumCore.swiftmodule/Project/i386.swiftsourceinfo</key>
+		<data>
+		cc2M2upVoRdCI5boGh2Ri2vPsHQ=
+		</data>
+		<key>Modules/TealiumCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		FmrutfB7zfeJwq9nQFIAii/Plfs=
+		</data>
+		<key>Modules/TealiumCore.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<data>
+		FmrutfB7zfeJwq9nQFIAii/Plfs=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		fPjw7MTc3Tx3Txu8t8cN/BXTvBo=
+		XdlS4XjLjFmMCMCvxxYLnkeA+iQ=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aEMF18kB0hRIve3glWcjvlR5aSE=
+		LO5Mw1FE9Ss1liFUrI4uzxyhejs=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a4FYCEVtfhtTgsxLtB3j03I5Z88=
+		OLdCebts2GZqS1Tt7W9/JW9FzY4=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		fPjw7MTc3Tx3Txu8t8cN/BXTvBo=
+		XdlS4XjLjFmMCMCvxxYLnkeA+iQ=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		aEMF18kB0hRIve3glWcjvlR5aSE=
+		LO5Mw1FE9Ss1liFUrI4uzxyhejs=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		a4FYCEVtfhtTgsxLtB3j03I5Z88=
+		OLdCebts2GZqS1Tt7W9/JW9FzY4=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		g5E70nJFCtym+zmzJ8+WukRO9lU=
+		ApcvROoMJ3Et5dpl3Wh5sX0un4k=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/8WKESx4LM3Nefdxs945KzdI6gc=
+		SkHDgVDXWTwHJhgfaaXDzorQIJU=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rdQkEdrlikHmcRYnOhCQQ4gtMv0=
+		b8xRBJF6pZmen/a0cdtMgrrKgmE=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/i386.swiftdoc</key>
 		<data>
-		g5E70nJFCtym+zmzJ8+WukRO9lU=
+		ApcvROoMJ3Et5dpl3Wh5sX0un4k=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/i386.swiftinterface</key>
 		<data>
-		/8WKESx4LM3Nefdxs945KzdI6gc=
+		SkHDgVDXWTwHJhgfaaXDzorQIJU=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/i386.swiftmodule</key>
 		<data>
-		rdQkEdrlikHmcRYnOhCQQ4gtMv0=
+		b8xRBJF6pZmen/a0cdtMgrrKgmE=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QSd4+t3DsDSo54GZdbTcUmL1zTQ=
+		VH/iEosDJ4ajc4oxBwj8x8DrCEw=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TWVEUcrB4oNZ4yc7BtNQzpyUnrg=
+		w/NB2C7RAiSRlBcWil/bKKqDOfY=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SFnwclmILHnOCKypkuuIB9NzNHA=
+		mAeAc7cen9jEr5bSjgN6+vjUfkE=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		QSd4+t3DsDSo54GZdbTcUmL1zTQ=
+		VH/iEosDJ4ajc4oxBwj8x8DrCEw=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		TWVEUcrB4oNZ4yc7BtNQzpyUnrg=
+		w/NB2C7RAiSRlBcWil/bKKqDOfY=
 		</data>
 		<key>Modules/TealiumCore.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		SFnwclmILHnOCKypkuuIB9NzNHA=
+		mAeAc7cen9jEr5bSjgN6+vjUfkE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -237,11 +261,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			B91nSWWxc3qaGrCAPJlwHFslnhQ=
+			7PXa3GU4zaKglEusRZRLVnYqOro=
 			</data>
 			<key>hash2</key>
 			<data>
-			fMP4YZTnVMSCwavryY5Q/LmpOyA1pdrNZm25s8MiCCM=
+			Qqy+EJH9/bLBB5ubdf+AusV06jZhEQZOi14TsomA6i0=
 			</data>
 		</dict>
 		<key>Headers/AtomicInteger.swift</key>
@@ -347,22 +371,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SaIEIbGOdvPEtMs0I1N8xuMttWs=
+			TUO7e/Jn3hXBgGhTiwGmS0a9Vks=
 			</data>
 			<key>hash2</key>
 			<data>
-			epRwnwvvEmVkIsGoIWSl9TTwFofMxU7II2lYkeRZ+Xk=
+			u3pLhKF/pxK4FxRTwGhVYysBnp6Zuc09GFxxoVurJ3M=
 			</data>
 		</dict>
 		<key>Headers/TealiumCore-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QeURnuRX4Ox2XqJ1Bfp4T+z698g=
+			3xZzM0sx8uEkMm5BhbBUQakni0M=
 			</data>
 			<key>hash2</key>
 			<data>
-			fB7jm7+2wCjbLGLdfO6iFDW+gW5LU/LE4HbAWDngSgY=
+			Xw4LPY0BLogHDZm/jGB22S9UjfERW9gSZgJHIuU9uso=
 			</data>
 		</dict>
 		<key>Headers/TealiumDiskStorage.swift</key>
@@ -512,11 +536,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zgQOEto2NgHaiWr/89zbFC4x9q8=
+			uNCl3MIHnO9zCnIDonkghMykvx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5smGpjRIql6W4CAra39k5OO2WZf4xrRXGhFUkZmHTg=
+			0OCUc+Blrr26csuLFu4+Sr0+M+EgXSbPrXSSwn4KRuc=
 			</data>
 		</dict>
 		<key>Headers/TealiumURLSession.swift</key>
@@ -552,202 +576,268 @@
 			l27lplBXYtWBpyyFpBBgvrKFb0mzUfDFcGNSWNIumTw=
 			</data>
 		</dict>
+		<key>Modules/TealiumCore.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PxTGSbmRC3Zl3AsxPu9xVwDwyGY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ucYikbWK/g8KsA+z1zXesyzNUuVcP1O5jJs4RbgKfIE=
+			</data>
+		</dict>
+		<key>Modules/TealiumCore.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PxTGSbmRC3Zl3AsxPu9xVwDwyGY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ucYikbWK/g8KsA+z1zXesyzNUuVcP1O5jJs4RbgKfIE=
+			</data>
+		</dict>
+		<key>Modules/TealiumCore.swiftmodule/Project/i386-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cc2M2upVoRdCI5boGh2Ri2vPsHQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			I0TV4IiPHxbL8GokaSalsC4a+dsy+cTA3/zwU1+BiuY=
+			</data>
+		</dict>
+		<key>Modules/TealiumCore.swiftmodule/Project/i386.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cc2M2upVoRdCI5boGh2Ri2vPsHQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			I0TV4IiPHxbL8GokaSalsC4a+dsy+cTA3/zwU1+BiuY=
+			</data>
+		</dict>
+		<key>Modules/TealiumCore.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FmrutfB7zfeJwq9nQFIAii/Plfs=
+			</data>
+			<key>hash2</key>
+			<data>
+			7AC5/5M/HFwaAAmlLtVDlOxDf94FKUml4WrKwEUeiM0=
+			</data>
+		</dict>
+		<key>Modules/TealiumCore.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FmrutfB7zfeJwq9nQFIAii/Plfs=
+			</data>
+			<key>hash2</key>
+			<data>
+			7AC5/5M/HFwaAAmlLtVDlOxDf94FKUml4WrKwEUeiM0=
+			</data>
+		</dict>
 		<key>Modules/TealiumCore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fPjw7MTc3Tx3Txu8t8cN/BXTvBo=
+			XdlS4XjLjFmMCMCvxxYLnkeA+iQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			YTJb34JWXYZeXuk6NE5cJw2ku+yzkqa500khNtQODLY=
+			+VHIU/Ipa6VH1ItyOqAZZbGqe5o7sG8XrvkCzEiEUa0=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aEMF18kB0hRIve3glWcjvlR5aSE=
+			LO5Mw1FE9Ss1liFUrI4uzxyhejs=
 			</data>
 			<key>hash2</key>
 			<data>
-			288SnDhVlDlo6LQ2xWiBNCF8Rld6vdhxUQKMnKnLnGg=
+			U4TIMIX2ufuvROoLmjXsK9o9MWggZl/e+NmFJtZu6P0=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a4FYCEVtfhtTgsxLtB3j03I5Z88=
+			OLdCebts2GZqS1Tt7W9/JW9FzY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9SMfLJMtL0L+jrc+N6Se1cv2Iwcaen/av6L6bl77kFw=
+			/RYHgw2G8ClZBPjBT2a72ly+Ylk/SO6l/rjhVP0J2dk=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fPjw7MTc3Tx3Txu8t8cN/BXTvBo=
+			XdlS4XjLjFmMCMCvxxYLnkeA+iQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			YTJb34JWXYZeXuk6NE5cJw2ku+yzkqa500khNtQODLY=
+			+VHIU/Ipa6VH1ItyOqAZZbGqe5o7sG8XrvkCzEiEUa0=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aEMF18kB0hRIve3glWcjvlR5aSE=
+			LO5Mw1FE9Ss1liFUrI4uzxyhejs=
 			</data>
 			<key>hash2</key>
 			<data>
-			288SnDhVlDlo6LQ2xWiBNCF8Rld6vdhxUQKMnKnLnGg=
+			U4TIMIX2ufuvROoLmjXsK9o9MWggZl/e+NmFJtZu6P0=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a4FYCEVtfhtTgsxLtB3j03I5Z88=
+			OLdCebts2GZqS1Tt7W9/JW9FzY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			9SMfLJMtL0L+jrc+N6Se1cv2Iwcaen/av6L6bl77kFw=
+			/RYHgw2G8ClZBPjBT2a72ly+Ylk/SO6l/rjhVP0J2dk=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g5E70nJFCtym+zmzJ8+WukRO9lU=
+			ApcvROoMJ3Et5dpl3Wh5sX0un4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			e0W4FIBkGa0oyHdMvCeo6oNBT1LHRQ9u/OjfBohmhNk=
+			FkXcqU0aci6dnPqHjlbBjLjyySHmIfHWfVdsBW80A7s=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/8WKESx4LM3Nefdxs945KzdI6gc=
+			SkHDgVDXWTwHJhgfaaXDzorQIJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			anbdOXjRsZcMW0+7fgn3hl8pNFXQbtAugh6pgKT3ijk=
+			CbiVCOGE27D2iwQxIQqqZdr+QBa0P/PG4VCIMczs3l0=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rdQkEdrlikHmcRYnOhCQQ4gtMv0=
+			b8xRBJF6pZmen/a0cdtMgrrKgmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xhOVmXDpcdjpQE7R2gmFdqza1OfuVLCx9AcX67vF+eg=
+			xTOZj3FFE6gh/nDRAPquuYOaHVrwX9b0K1SYzsdmFto=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			g5E70nJFCtym+zmzJ8+WukRO9lU=
+			ApcvROoMJ3Et5dpl3Wh5sX0un4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			e0W4FIBkGa0oyHdMvCeo6oNBT1LHRQ9u/OjfBohmhNk=
+			FkXcqU0aci6dnPqHjlbBjLjyySHmIfHWfVdsBW80A7s=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/8WKESx4LM3Nefdxs945KzdI6gc=
+			SkHDgVDXWTwHJhgfaaXDzorQIJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			anbdOXjRsZcMW0+7fgn3hl8pNFXQbtAugh6pgKT3ijk=
+			CbiVCOGE27D2iwQxIQqqZdr+QBa0P/PG4VCIMczs3l0=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rdQkEdrlikHmcRYnOhCQQ4gtMv0=
+			b8xRBJF6pZmen/a0cdtMgrrKgmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xhOVmXDpcdjpQE7R2gmFdqza1OfuVLCx9AcX67vF+eg=
+			xTOZj3FFE6gh/nDRAPquuYOaHVrwX9b0K1SYzsdmFto=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QSd4+t3DsDSo54GZdbTcUmL1zTQ=
+			VH/iEosDJ4ajc4oxBwj8x8DrCEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VVRI1g71pqQE8GBcozpBVvgQALpKAYBZzyBi1R84uZs=
+			hl829bna7vWNDveqsXCGGOs+uAO4qezVlTOiozcWiyk=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TWVEUcrB4oNZ4yc7BtNQzpyUnrg=
+			w/NB2C7RAiSRlBcWil/bKKqDOfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nvs5B8ztHExF7jQGXMzAfM0DvnlXOxPbAST438yQMO4=
+			M180zti/jdhb4+/gjWEirXWCx/KhGe+i1aL3kLcXIvw=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SFnwclmILHnOCKypkuuIB9NzNHA=
+			mAeAc7cen9jEr5bSjgN6+vjUfkE=
 			</data>
 			<key>hash2</key>
 			<data>
-			pWvTDSyt78fpnHopc/8+mkFLmbTwQhtbWMtqiJC6Efw=
+			7A0t4POPee52yOCq7eqV43jA6RqrWwnlzv8aROKenP8=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QSd4+t3DsDSo54GZdbTcUmL1zTQ=
+			VH/iEosDJ4ajc4oxBwj8x8DrCEw=
 			</data>
 			<key>hash2</key>
 			<data>
-			VVRI1g71pqQE8GBcozpBVvgQALpKAYBZzyBi1R84uZs=
+			hl829bna7vWNDveqsXCGGOs+uAO4qezVlTOiozcWiyk=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TWVEUcrB4oNZ4yc7BtNQzpyUnrg=
+			w/NB2C7RAiSRlBcWil/bKKqDOfY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nvs5B8ztHExF7jQGXMzAfM0DvnlXOxPbAST438yQMO4=
+			M180zti/jdhb4+/gjWEirXWCx/KhGe+i1aL3kLcXIvw=
 			</data>
 		</dict>
 		<key>Modules/TealiumCore.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SFnwclmILHnOCKypkuuIB9NzNHA=
+			mAeAc7cen9jEr5bSjgN6+vjUfkE=
 			</data>
 			<key>hash2</key>
 			<data>
-			pWvTDSyt78fpnHopc/8+mkFLmbTwQhtbWMtqiJC6Efw=
+			7A0t4POPee52yOCq7eqV43jA6RqrWwnlzv8aROKenP8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

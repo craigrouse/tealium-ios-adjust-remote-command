@@ -22,7 +22,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Settings", systemImage: "gearshape.fill")
                 }
-        }.accentColor(.tealBlue)
+        }.accentColor(.tealBlue).onOpenURL(perform: { url in
+            TealiumHelper.trackEvent(title: "track_deeplink",
+                                     data: ["deeplink_url": url.absoluteString])
+        })
     }
 }
 

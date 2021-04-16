@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.1 (swiftlang-1200.0.39 clang-1200.0.32.6)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TealiumCore
 import CoreTelephony
 import Darwin
@@ -506,6 +506,8 @@ public class TealiumMulticastDelegate<T> {
   @objc deinit
 }
 public struct UserConsentPreferences : Swift.Equatable, Swift.Codable {
+  public var consentCategories: [TealiumCore.TealiumConsentCategories]?
+  public var consentStatus: TealiumCore.TealiumConsentStatus
   public init(consentStatus: TealiumCore.TealiumConsentStatus, consentCategories: [TealiumCore.TealiumConsentCategories]?)
   public mutating func initWithDictionary(preferencesDictionary: [Swift.String : Any])
   public var dictionary: [Swift.String : Any]? {
@@ -731,14 +733,10 @@ public enum TealiumConsentCategories : Swift.String, Swift.Codable {
     get
   }
 }
-public enum TealiumConsentPolicy : Swift.String {
+public enum TealiumConsentPolicy {
   case ccpa
   case gdpr
-  public typealias RawValue = Swift.String
-  public init?(rawValue: Swift.String)
-  public var rawValue: Swift.String {
-    get
-  }
+  case custom(TealiumCore.ConsentPolicy.Type)
 }
 public enum TealiumConsentStatus : Swift.String, Swift.Codable {
   case unknown
@@ -900,7 +898,6 @@ public enum TealiumKey {
   public static let profile: Swift.String
   public static let environment: Swift.String
   public static let event: Swift.String
-  public static let callType: Swift.String
   public static let screenTitle: Swift.String
   public static let eventType: Swift.String
   public static let libraryName: Swift.String
@@ -939,7 +936,7 @@ public enum TealiumKey {
   public static let qa: Swift.String
   public static let errorHeaderKey: Swift.String
   public static let diskStorageDirectory: Swift.String
-  public static let remoteAPICallType: Swift.String
+  public static let remoteAPIEventType: Swift.String
   public static let publishSettings: Swift.String
   public static let publishSettingsURL: Swift.String
   public static let publishSettingsProfile: Swift.String
@@ -1090,6 +1087,87 @@ public protocol DeviceDataCollection {
 }
 extension DeviceDataCollection {
   public func architecture() -> Swift.String
+}
+public protocol ConsentPolicy {
+  init(_ preferences: TealiumCore.UserConsentPreferences)
+  var name: Swift.String { get }
+  var defaultConsentExpiry: (time: Swift.Int, unit: TealiumCore.TimeUnit) { get }
+  var shouldUpdateConsentCookie: Swift.Bool { get }
+  var updateConsentCookieEventName: Swift.String { get }
+  var consentPolicyStatusInfo: [Swift.String : Any]? { get }
+  var preferences: TealiumCore.UserConsentPreferences { get set }
+  var trackAction: TealiumCore.TealiumConsentTrackAction { get }
+  var consentTrackingEventName: Swift.String { get }
+  var shouldLogConsentStatus: Swift.Bool { get }
+}
+@_hasMissingDesignatedInitializers public class ConsentPolicyFactory {
+  public static func create(_ policy: TealiumCore.TealiumConsentPolicy, preferences: TealiumCore.UserConsentPreferences) -> TealiumCore.ConsentPolicy
+  @objc deinit
+}
+public protocol CCPAConsentPolicyCreatable : TealiumCore.ConsentPolicy {
+}
+extension CCPAConsentPolicyCreatable {
+  public var name: Swift.String {
+    get
+  }
+  public var defaultConsentExpiry: (time: Swift.Int, unit: TealiumCore.TimeUnit) {
+    get
+  }
+  public var shouldLogConsentStatus: Swift.Bool {
+    get
+  }
+  public var consentTrackingEventName: Swift.String {
+    get
+  }
+  public var currentStatus: TealiumCore.TealiumConsentStatus {
+    get
+  }
+  public var shouldUpdateConsentCookie: Swift.Bool {
+    get
+  }
+  public var updateConsentCookieEventName: Swift.String {
+    get
+  }
+  public var trackAction: TealiumCore.TealiumConsentTrackAction {
+    get
+  }
+  public var consentPolicyStatusInfo: [Swift.String : Any]? {
+    get
+  }
+}
+public protocol GDPRConsentPolicyCreatable : TealiumCore.ConsentPolicy {
+}
+extension GDPRConsentPolicyCreatable {
+  public var name: Swift.String {
+    get
+  }
+  public var defaultConsentExpiry: (time: Swift.Int, unit: TealiumCore.TimeUnit) {
+    get
+  }
+  public var shouldLogConsentStatus: Swift.Bool {
+    get
+  }
+  public var consentTrackingEventName: Swift.String {
+    get
+  }
+  public var shouldUpdateConsentCookie: Swift.Bool {
+    get
+  }
+  public var updateConsentCookieEventName: Swift.String {
+    get
+  }
+  public var currentStatus: TealiumCore.TealiumConsentStatus {
+    get
+  }
+  public var currentCategories: [TealiumCore.TealiumConsentCategories]? {
+    get
+  }
+  public var consentPolicyStatusInfo: [Swift.String : Any]? {
+    get
+  }
+  public var trackAction: TealiumCore.TealiumConsentTrackAction {
+    get
+  }
 }
 public class ReadWrite {
   public init(_ label: Swift.String)
@@ -1463,6 +1541,11 @@ extension AnyEncodable : Swift.ExpressibleByDictionaryLiteral {
 public protocol DispatchListener {
   func willTrack(request: TealiumCore.TealiumRequest)
 }
+extension Encodable {
+  public var encoded: [Swift.String : Any]? {
+    get
+  }
+}
 public protocol ConnectivityDelegate : AnyObject {
   func connectionLost()
   func connectionRestored()
@@ -1546,9 +1629,6 @@ extension TealiumCore.TealiumLogLevel : Swift.RawRepresentable {}
 extension TealiumCore.TealiumConsentCategories : Swift.Equatable {}
 extension TealiumCore.TealiumConsentCategories : Swift.Hashable {}
 extension TealiumCore.TealiumConsentCategories : Swift.RawRepresentable {}
-extension TealiumCore.TealiumConsentPolicy : Swift.Equatable {}
-extension TealiumCore.TealiumConsentPolicy : Swift.Hashable {}
-extension TealiumCore.TealiumConsentPolicy : Swift.RawRepresentable {}
 extension TealiumCore.TealiumConsentStatus : Swift.Equatable {}
 extension TealiumCore.TealiumConsentStatus : Swift.Hashable {}
 extension TealiumCore.TealiumConsentStatus : Swift.RawRepresentable {}

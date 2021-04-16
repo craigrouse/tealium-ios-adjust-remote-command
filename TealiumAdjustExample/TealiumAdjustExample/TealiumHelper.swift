@@ -8,6 +8,8 @@
 import Foundation
 import TealiumSwift
 import TealiumAdjust
+import AdSupport
+import iAd
 import Adjust
 
 enum TealiumConfiguration {
@@ -30,13 +32,16 @@ class TealiumHelper: NSObject {
     // let adjustRemoteCommand = AdjustRemoteCommand(type: .remote(url: "https://tags.tiqcdn.com/dle/tealiummobile/demo/adjust.json"))
     let adjustRemoteCommand = AdjustRemoteCommand(type: .local(file: "adjust"))
     
+    // TiQ Remote Command
+    // let adjustRemoteCommand = AdjustRemoteCommand(type: .webview)
+    
     private override init() {
         super.init()
         config.shouldUseRemotePublishSettings = false
         config.batchingEnabled = false
         config.remoteAPIEnabled = true
         config.logLevel = .info
-        config.collectors = [Collectors.Lifecycle]
+        config.collectors = [Collectors.Lifecycle, Collectors.Attribution]
         config.dispatchers = [Dispatchers.Collect, Dispatchers.RemoteCommands]
         
         // Optional: Set delegate and tracking auth callback
@@ -51,7 +56,7 @@ class TealiumHelper: NSObject {
                 break;
             }
         }
-                
+
         tealium = Tealium(config: config) { _ in
             guard let remoteCommands = self.tealium?.remoteCommands else {
                 return

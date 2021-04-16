@@ -7,12 +7,13 @@
 
 import os
 import Foundation
-#if canImport(Adjust)
+#if SPM
 import Adjust
 #else
 import AdjustSdk
 #endif
 #if COCOAPODS
+import Adjust
 import TealiumSwift
 #else
 import TealiumCore
@@ -334,7 +335,7 @@ fileprivate extension ADJLogLevel {
             return
         }
         switch logLevel {
-        case "verboose":
+        case "verbose":
             self = ADJLogLevelVerbose
         case "debug":
             self = ADJLogLevelDebug

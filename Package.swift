@@ -17,7 +17,8 @@ let package = Package(
         .target(
             name: "TealiumAdjust",
             dependencies: ["Adjust", "TealiumCore", "TealiumRemoteCommands"],
-            path: "./Sources"),
+            path: "./Sources",
+            swiftSettings: [.define("SPM")]),
         .testTarget(
             name: "TealiumAdjustTests",
             dependencies: ["TealiumAdjust"],

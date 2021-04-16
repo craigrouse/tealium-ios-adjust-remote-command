@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Adjust",
+        "repositoryURL": "https://github.com/adjust/ios_sdk",
+        "state": {
+          "branch": null,
+          "revision": "8790a5300d00a11b8f51c7cc66c94165ac656f8c",
+          "version": "4.28.0"
+        }
+      },
+      {
+        "package": "TealiumSwift",
+        "repositoryURL": "https://github.com/tealium/tealium-swift",
+        "state": {
+          "branch": null,
+          "revision": "2591e46f36ac9c10970da2ad2df835078e574a19",
+          "version": "2.3.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

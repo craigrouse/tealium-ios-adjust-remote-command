@@ -19,10 +19,10 @@
 		CF3DF7D225D5E43C00CEC8C5 /* AdjustSdk.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CF3DF77925D4634E00CEC8C5 /* AdjustSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF5ABAB125DC8A7000FEB1D6 /* AdjustSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3DF77925D4634E00CEC8C5 /* AdjustSdk.framework */; };
 		CF5ABAB225DC8A7000FEB1D6 /* AdjustSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF3DF77925D4634E00CEC8C5 /* AdjustSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF5ABAB525DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB325DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework */; };
-		CF5ABAB625DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB325DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CF5ABAB725DC97CE00FEB1D6 /* TealiumCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB425DC97CE00FEB1D6 /* TealiumCore.xcframework */; };
-		CF5ABAB825DC97CE00FEB1D6 /* TealiumCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB425DC97CE00FEB1D6 /* TealiumCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFD2E0E9262A40F700B38AD9 /* TealiumCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB425DC97CE00FEB1D6 /* TealiumCore.xcframework */; };
+		CFD2E0EA262A40F700B38AD9 /* TealiumCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB425DC97CE00FEB1D6 /* TealiumCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CFD2E0EB262A40F700B38AD9 /* TealiumRemoteCommands.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB325DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework */; };
+		CFD2E0EC262A40F700B38AD9 /* TealiumRemoteCommands.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF5ABAB325DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				CF5ABAB825DC97CE00FEB1D6 /* TealiumCore.xcframework in Embed Frameworks */,
+				CFD2E0EC262A40F700B38AD9 /* TealiumRemoteCommands.xcframework in Embed Frameworks */,
+				CFD2E0EA262A40F700B38AD9 /* TealiumCore.xcframework in Embed Frameworks */,
 				CF5ABAB225DC8A7000FEB1D6 /* AdjustSdk.framework in Embed Frameworks */,
-				CF5ABAB625DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,9 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF5ABAB725DC97CE00FEB1D6 /* TealiumCore.xcframework in Frameworks */,
+				CFD2E0EB262A40F700B38AD9 /* TealiumRemoteCommands.xcframework in Frameworks */,
+				CFD2E0E9262A40F700B38AD9 /* TealiumCore.xcframework in Frameworks */,
 				CF5ABAB125DC8A7000FEB1D6 /* AdjustSdk.framework in Frameworks */,
-				CF5ABAB525DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

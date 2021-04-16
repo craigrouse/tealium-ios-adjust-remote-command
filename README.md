@@ -1,13 +1,15 @@
-## Tealium Adjust
+## Tealium Adjust Remote Command
 
 [![License](https://img.shields.io/badge/license-Proprietary-blue.svg?style=flat
-           )](https://github.com/Tealium/tealium-swift/blob/master/LICENSE.txt)
+           )](https://github.com/Tealium/tealium-ios-adjust-remote-command/blob/main/LICENSE.txt)
 [![Platform](https://img.shields.io/badge/platform-iOS-lightgrey.svg?style=flat
              )](https://developer.apple.com/resources/)
+[![Language](https://img.shields.io/badge/Language-Swift-orange.svg?style=flat
+             )](https://swift.org/)
 
 
 ## Documentation
-For full documentation, please see the Tealium Learning Community: 
+For full documentation, please see the Tealium Developer Docs: 
 
 [https://docs.tealium.com/platforms/remote-commands/integrations/adjust/](https://docs.tealium.com/platforms/remote-commands/integrations/adjust/)
 
