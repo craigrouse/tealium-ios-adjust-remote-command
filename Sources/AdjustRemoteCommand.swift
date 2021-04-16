@@ -7,13 +7,12 @@
 
 import os
 import Foundation
-#if SPM
+#if canImport(Adjust)
 import Adjust
 #else
 import AdjustSdk
 #endif
 #if COCOAPODS
-import Adjust
 import TealiumSwift
 #else
 import TealiumCore

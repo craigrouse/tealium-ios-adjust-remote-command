@@ -6,9 +6,7 @@
 //
 
 import Foundation
-#if COCOAPODS
-import Adjust
-#elseif SPM
+#if canImport(Adjust)
 import Adjust
 #else
 import AdjustSdk
