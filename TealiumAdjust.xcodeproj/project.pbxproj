@@ -14,8 +14,6 @@
 		CF3DF7BB25D49A0100CEC8C5 /* AdjustConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF7B825D49A0100CEC8C5 /* AdjustConstants.swift */; };
 		CF3DF7BC25D49A0100CEC8C5 /* AdjustRemoteCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF7B925D49A0100CEC8C5 /* AdjustRemoteCommand.swift */; };
 		CF3DF7C425D5D72700CEC8C5 /* MockAdjustInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DF7C125D5D71200CEC8C5 /* MockAdjustInstance.swift */; };
-		CF9753C426436D8500A8FCBF /* AdjustSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF97539A26435CA400A8FCBF /* AdjustSdk.xcframework */; };
-		CF9753C526436D8500A8FCBF /* AdjustSdk.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF97539A26435CA400A8FCBF /* AdjustSdk.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF9753C626436D8500A8FCBF /* TealiumCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3DF78725D4697300CEC8C5 /* TealiumCore.xcframework */; };
 		CF9753C726436D8500A8FCBF /* TealiumCore.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CF3DF78725D4697300CEC8C5 /* TealiumCore.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CF9753C826436D8500A8FCBF /* TealiumRemoteCommands.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3DF78625D4697300CEC8C5 /* TealiumRemoteCommands.xcframework */; };
@@ -50,7 +48,6 @@
 			files = (
 				CF9753C926436D8500A8FCBF /* TealiumRemoteCommands.xcframework in Embed Frameworks */,
 				CF9753C726436D8500A8FCBF /* TealiumCore.xcframework in Embed Frameworks */,
-				CF9753C526436D8500A8FCBF /* AdjustSdk.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,12 +68,6 @@
 		CF3DF7B825D49A0100CEC8C5 /* AdjustConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustConstants.swift; sourceTree = "<group>"; };
 		CF3DF7B925D49A0100CEC8C5 /* AdjustRemoteCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustRemoteCommand.swift; sourceTree = "<group>"; };
 		CF3DF7C125D5D71200CEC8C5 /* MockAdjustInstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAdjustInstance.swift; sourceTree = "<group>"; };
-		CF5ABAB025DC8A6300FEB1D6 /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
-		CF5ABAB325DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TealiumRemoteCommands.xcframework; sourceTree = "<group>"; };
-		CF5ABAB425DC97CE00FEB1D6 /* TealiumCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TealiumCore.xcframework; sourceTree = "<group>"; };
-		CF97539126435C4700A8FCBF /* AdjustSdkIm.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdjustSdkIm.xcframework; path = Carthage/Build/AdjustSdkIm.xcframework; sourceTree = "<group>"; };
-		CF97539A26435CA400A8FCBF /* AdjustSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = AdjustSdk.xcframework; path = Carthage/Build/AdjustSdk.xcframework; sourceTree = "<group>"; };
-		CF9753A4264361C100A8FCBF /* AdjustSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = AdjustSdk.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +77,6 @@
 			files = (
 				CF9753C826436D8500A8FCBF /* TealiumRemoteCommands.xcframework in Frameworks */,
 				CF9753C626436D8500A8FCBF /* TealiumCore.xcframework in Frameworks */,
-				CF9753C426436D8500A8FCBF /* AdjustSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +125,6 @@
 		CF3DF77625D4634E00CEC8C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CF97539A26435CA400A8FCBF /* AdjustSdk.xcframework */,
-				CF9753A4264361C100A8FCBF /* AdjustSdk.xcframework */,
-				CF97539126435C4700A8FCBF /* AdjustSdkIm.xcframework */,
-				CF5ABAB425DC97CE00FEB1D6 /* TealiumCore.xcframework */,
-				CF5ABAB325DC97CE00FEB1D6 /* TealiumRemoteCommands.xcframework */,
-				CF5ABAB025DC8A6300FEB1D6 /* iOS */,
 				CF3DF78725D4697300CEC8C5 /* TealiumCore.xcframework */,
 				CF3DF78625D4697300CEC8C5 /* TealiumRemoteCommands.xcframework */,
 				CF3DF77925D4634E00CEC8C5 /* AdjustSdk.framework */,
@@ -460,6 +444,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
